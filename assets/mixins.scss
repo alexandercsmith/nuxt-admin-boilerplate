@@ -1,0 +1,26 @@
+// Flexbox
+@mixin flex($direction, $wrap, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+// Position
+@mixin position($pos, $top, $right, $bottom, $left) {
+  display: $pos;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+// Grid
+@mixin grid($col, $colgap, $rowgap) {
+  display: grid;
+  grid-template-columns: $col;
+  grid-template-rows: auto;
+  grid-column-gap: $colgap;
+  grid-row-gap: $rowgap;
+}
