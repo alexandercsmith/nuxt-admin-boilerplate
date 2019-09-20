@@ -1,4 +1,5 @@
 import pkg from './package'
+import webpack from 'webpack'
 
 export default {
   mode: 'spa',
@@ -21,7 +22,7 @@ export default {
   loadingIndicator: {
     name: 'pulse',
     color: '#b30000',
-    background: '#002db3'
+    background: '#004466'
   },
 
   css: ['~/assets/app.css'],
@@ -36,7 +37,7 @@ export default {
     '@nuxtjs/dotenv',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/toast'
+    '@nuxtjs/toast',
     '@nuxtjs/style-resources'
   ],
 

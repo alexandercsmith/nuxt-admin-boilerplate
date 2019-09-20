@@ -5,7 +5,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'login'
+}
 </script>
 
 <style scoped></style>

@@ -1,6 +1,6 @@
 export default ({ $axios }, inject) => {
   // Read - Items
-  inject('readItems', (model) => {
+  inject('readItems', model => {
     return $axios.$get(`${process.env.API_URL}/${model}`)
   })
   // Read - Item
