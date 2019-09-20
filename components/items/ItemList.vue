@@ -4,7 +4,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    items: {
+      type: Array,
+      required: true
+    }
+  }
+}
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

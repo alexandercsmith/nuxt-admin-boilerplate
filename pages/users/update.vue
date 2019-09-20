@@ -1,6 +1,7 @@
 <template>
-  <div>
-  </div>
+  <section>
+    <h1>Users Update</h1>
+  </section>
 </template>
 
 <script>

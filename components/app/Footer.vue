@@ -1,6 +1,7 @@
 <template>
   <footer>
     <nuxt-link to="/">Dashboard</nuxt-link>
+    <nuxt-link to="/users">Users</nuxt-link>
     <nuxt-link to="/account">Account</nuxt-link>
   </footer>
 </template>
@@ -9,4 +10,4 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

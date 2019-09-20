@@ -1,6 +1,7 @@
 <template>
-  <div>
-  </div>
+  <section>
+    <h1>User</h1>
+  </section>
 </template>
 
 <script>
