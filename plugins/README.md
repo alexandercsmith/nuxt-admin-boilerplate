@@ -21,6 +21,8 @@ this.$updateItem('model', 'id', { data })
 this.$deleteItem('model', 'id')
 ```
 
+## Utilities
+
 
 ## Icons
 
