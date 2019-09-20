@@ -18,7 +18,8 @@ export default {
   css: ['~/assets/app.css'],
 
   plugins: [
-    '~/plugins/api.js'
+    '~/plugins/api.js',
+    '~/plugins/icons.js'
   ],
 
   modules: [
