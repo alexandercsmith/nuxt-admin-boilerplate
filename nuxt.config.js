@@ -43,9 +43,7 @@ export default {
   ],
 
   styleResources: {
-    scss: [
-      './assets/*.scss'
-    ]
+    scss: ['./assets/*.scss']
   },
 
   toast: {
