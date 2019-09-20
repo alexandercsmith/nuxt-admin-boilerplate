@@ -17,7 +17,9 @@ export default {
 
   css: ['~/assets/app.css'],
 
-  plugins: [],
+  plugins: [
+    '~/plugins/api.js'
+  ],
 
   modules: [
     '@nuxtjs/axios',
