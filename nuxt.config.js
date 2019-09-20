@@ -21,8 +21,17 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/toast'
   ],
+
+  toast: {
+    position: 'top-center',
+    duration: 5000,
+    fullWidth: true,
+    fitToWidth: true,
+    keepOnHover: true
+  },
 
   build: {
     extend(config, ctx) {
