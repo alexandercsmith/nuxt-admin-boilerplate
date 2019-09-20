@@ -1,7 +1,6 @@
 <template>
-  <section>
-    <h1>Home</h1>
-  </section>
+  <nav>
+  </nav>
 </template>
 
 <script>

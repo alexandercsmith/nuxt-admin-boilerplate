@@ -5,18 +5,27 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# Install Dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# Serve with Hot-reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# Build for Production and Launch Server
 $ npm run build
 $ npm start
 
-# generate static project
+# Generate Static Project
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Deployment
+
+```bash
+```
+
+
+## Documentation
+
+* [Nuxt.js](https://nuxtjs.org)
+* [Nuxt.js - Axios](https://axios.nuxtjs.org/usage)
