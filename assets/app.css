@@ -1,4 +1,130 @@
+/* HTML Tags */
 html, body {
-  margin: 0;
   padding: 0;
+  margin: 0;
+}
+section {
+  width: 100%;
+}
+h1 {
+  font-size: 2.7rem;
+  line-height: 3rem;
+  font-weight: normal;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 2.3rem;
+  line-height: 2.6rem;
+  font-weight: normal;
+  margin: 15px 0;
+}
+h3 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: normal;
+  margin: 10px 0
+}
+p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  margin: 8px 0;
+}
+p a {
+  text-decoration: none;
+  color: ;
+}
+p a:hover {
+  text-decoration: underline;
+  color: ;
+}
+ul,
+ol {
+  margin: 20px 0;
+}
+ul li,
+ol li {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+form {}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"] {
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  background-color: #f9f9f9;
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  outline: none;
+  box-shadow: 0px 0px 1px #505050;
+  text-indent: 8px;
+}
+select {
+  width: 100%;
+  height: 34px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px #505050;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px #505050;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  outline: none;
+}
+input[type="checkbox"] {}
+input[type="radio"] {}
+input[type="submit"] {
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  height: 34px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+  box-shadow: 0 2px 3px #d8d8d8;
+  background-color: #2d862d;
+  cursor: pointer;
+  transition: 0.2s;
+}
+input[type="submit"]:hover {
+  background-color: #2e972d;
+  box-shadow: none;
+}
+
+/* Articles */
+article {}
+article h1 {}
+article h2 {}
+article h3 {}
+article p {}
+article p a {}
+article ul,
+article ol {}
+article ul li,
+article ol li {}
+article img {}
+
+/* Transitions */
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
 }
