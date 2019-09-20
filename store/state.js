@@ -1,5 +1,5 @@
 export default () => ({
-  info: {},
   user: {},
-  users: []
+  users: [],
+  content: []
 })

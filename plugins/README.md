@@ -9,20 +9,33 @@
 this.$readItems('model')
 
 // READ - Item
-this.$readItem('model', 'id')
+this.$readItem('model', id)
 
 // CREATE - Item
 this.$createItem('model', { data })
 
 // UPDATE - Item
-this.$updateItem('model', 'id', { data })
+this.$updateItem('model', id, { data })
 
 // DELETE - Item
-this.$deleteItem('model', 'id')
+this.$deleteItem('model', id)
 ```
 
 ## Utilities
 
+
+## Content
+
+```javascript
+// Upload Images
+this.$uploadImage()
+
+// Upload Video
+this.$uploadVideo()
+
+// Upload Document
+this.$uploadDocument()
+```
 
 ## Icons
 

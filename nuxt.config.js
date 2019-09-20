@@ -29,6 +29,7 @@ export default {
 
   plugins: [
     '~/plugins/api.js',
+    '~/plugins/content.js',
     '~/plugins/icons.js',
     '~/plugins/util.js'
   ],
