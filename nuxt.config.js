@@ -30,6 +30,7 @@ export default {
   ],
 
   modules: [
+    '@nuxtjs/dotenv',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/toast'
