@@ -19,7 +19,7 @@
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/toast": "^3.2.1",
     "cross-env": "^5.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "nuxt": "^2.4.0",
     "vue-awesome": "^3.5.4"
   },
